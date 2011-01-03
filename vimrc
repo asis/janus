@@ -1,3 +1,4 @@
+let mapleader="ñ"
 set nocompatible
 
 set number
@@ -32,7 +33,7 @@ set noequalalways
 
 " NERDTree configuration
 let NERDTreeIgnore=['\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
+map <silent> <Leader>p :NERDTreeToggle<CR>
 
 " Command-T configuration
 let g:CommandTMaxHeight=20
@@ -103,7 +104,7 @@ set modeline
 set modelines=10
 
 " Default color scheme
-color desert
+color railscasts
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))

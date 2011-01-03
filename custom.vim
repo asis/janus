@@ -9,6 +9,8 @@ set lazyredraw
 set vb t_vb=
 set novisualbell
 
+"Enable hidden buffers
+set hidden
 
 "enable omnicompletion
 set ofu=syntaxcomplete#Complete
@@ -16,6 +18,9 @@ set completeopt=menu,menuone,preview
 
 "share clipboard
 set clipboard+=unnamed
+
+"clear search highlights
+nnoremap <silent> <C-l> :nohlsearch<CR>
 
 "editor UI fine tuning
 set cursorline
@@ -50,7 +55,7 @@ imap <c-tab> <esc>:tabnext<cr>
 imap <c-s-tab> <esc>:tabprevious<cr>
 
 "CommandT switch
-nnoremap <silent> <leader>t :CommandT<CR>
+nnoremap <silent> <leader>f :CommandT<CR>
 
 "Load OS dependent customizations
 if has("mac")

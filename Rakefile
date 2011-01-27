@@ -153,6 +153,7 @@ vim_plugin_task "matchit",          "git://github.com/tsaleh/vim-matchit.git"
 vim_plugin_task "zencoding",        "git://github.com/mattn/zencoding-vim.git"
 vim_plugin_task "textobj-usr",      "git://github.com/kana/vim-textobj-user.git"
 vim_plugin_task "textobj-ruby",     "git://github.com/nelstrom/vim-textobj-rubyblock.git"
+vim_plugin_task "bufexplorer",      "http://www.vim.org/scripts/download_script.php?src_id=14208"
 
 vim_plugin_task "command_t",        "git://github.com/wincent/Command-T.git" do
   sh "find ruby -name '.gitignore' | xargs rm"

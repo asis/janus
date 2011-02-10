@@ -156,7 +156,8 @@ vim_plugin_task "textobj-ruby",     "git://github.com/nelstrom/vim-textobj-rubyb
 vim_plugin_task "bufexplorer",      "http://www.vim.org/scripts/download_script.php?src_id=14208"
 vim_plugin_task "yankring",         "http://www.vim.org/scripts/download_script.php?src_id=13554"
 vim_plugin_task "bufmru",           "http://www.vim.org/scripts/download_script.php?src_id=10574"
-
+vim_plugin_task "vim-wiki",         "http://www.vim.org/scripts/download_script.php?src_id=13756"
+vim_plugin_task "vim-indent-guides", "git://github.com/nathanaelkane/vim-indent-guides.git"
 
 vim_plugin_task "command_t",        "git://github.com/wincent/Command-T.git" do
   sh "find ruby -name '.gitignore' | xargs rm"

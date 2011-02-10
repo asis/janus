@@ -3,17 +3,17 @@ if has("gui")
 endif
 
 "switching between windows
-inoremap <silent> <M-Left> <Esc>:wincmd h<cr>
-nnoremap <silent> <M-Left> :wincmd h<cr>
+imap <silent> <M-Left> <Esc>:wincmd h<cr>
+nmap <silent> <M-Left> :wincmd h<cr>
 
-inoremap <silent> <M-Right> <Esc>:wincmd l<cr>
-nnoremap <silent> <M-Right> :wincmd l<cr>
+imap <silent> <M-Right> <Esc>:wincmd l<cr>
+nmap <silent> <M-Right> :wincmd l<cr>
 
-inoremap <silent> <M-Up> <Esc>:wincmd k<cr>
-nnoremap <silent> <M-Up> :wincmd k<cr>
+imap <silent> <M-Up> <Esc>:wincmd k<cr>
+nmap <silent> <M-Up> :wincmd k<cr>
 
-inoremap <silent> <M-Down> <Esc>:wincmd j<cr>
-nnoremap <silent> <M-Down> :wincmd j<cr>
+imap <silent> <M-Down> <Esc>:wincmd j<cr>
+nmap <silent> <M-Down> :wincmd j<cr>
 
-imap <D-Return> <Esc>o
+imap <silent> <D-Return> <Esc>o
 

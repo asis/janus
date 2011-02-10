@@ -2,6 +2,9 @@
 " My VIM customizations
 "****************************
 
+"tenderlove's statusline
+set statusline=%t%(\ [%n%M]%)%(\ %H%R%W%)\ %(%c-%v,\ %l\ of\ %L,\ (%o)\ %P\ 0x%B\ (%b)%)
+
 "Don't update the display while executing macros
 set lazyredraw
 

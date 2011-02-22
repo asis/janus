@@ -158,7 +158,6 @@ vim_plugin_task "yankring",         "http://www.vim.org/scripts/download_script.
 vim_plugin_task "bufmru",           "http://www.vim.org/scripts/download_script.php?src_id=10574"
 vim_plugin_task "vim-wiki",         "http://www.vim.org/scripts/download_script.php?src_id=13756"
 vim_plugin_task "vim-indent-guides", "git://github.com/nathanaelkane/vim-indent-guides.git"
-vim_plugin_task "endwise", "git://github.com/tpope/vim-endwise.git"
 vim_plugin_task "vim-coffee-script","git://github.com/kchmck/vim-coffee-script.git"
 vim_plugin_task "syntastic",        "git://github.com/scrooloose/syntastic.git"
 vim_plugin_task "puppet",           "git://github.com/ajf/puppet-vim.git"

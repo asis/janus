@@ -161,6 +161,7 @@ vim_plugin_task "vim-coffee-script","git://github.com/kchmck/vim-coffee-script.g
 vim_plugin_task "syntastic",        "git://github.com/scrooloose/syntastic.git"
 vim_plugin_task "puppet",           "git://github.com/ajf/puppet-vim.git"
 vim_plugin_task "vim-calc",         "git://github.com/gregsexton/VimCalc.git"
+vim_plugin_task "gundo",            "git://github.com/sjl/gundo.vim.git"
 
 vim_plugin_task "command_t",        "git://github.com/wincent/Command-T.git" do
   sh "find ruby -name '.gitignore' | xargs rm"

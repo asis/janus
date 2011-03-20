@@ -1,5 +1,6 @@
 if has("gui")
     set guifont=Menlo\ Regular:h14.0
+    set transparency=5
 endif
 
 "switching between windows

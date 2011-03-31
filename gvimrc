@@ -227,3 +227,6 @@ endif
 
 " include my customizations
 source ~/.vim/custom.vim
+
+" EasyHighlight
+hi! link EasyMotionTarget MatchParen

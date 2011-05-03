@@ -2,6 +2,9 @@ if has("gui")
     set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
 endif
 
+"Setup ack
+set grepprg=ack-grep\ -a
+
 nnoremap <Silent> <C-s> :w<CR>
 inoremap <Silent> <C-s> <Esc>:w<CR>a
 nnoremap <Silent> <C-w> :q<CR>

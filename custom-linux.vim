@@ -2,6 +2,10 @@ if has("gui")
     set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
 endif
 
+"Fix mouse stuff in xterm
+set ttymouse=xterm2
+set mouse=a
+
 "Setup ack
 set grepprg=ack-grep\ -a
 

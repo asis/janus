@@ -76,11 +76,6 @@ nmap gV `[v`]
 "Add some files to the ignore list
 set wildignore+=*.class,.git/**,.svn/**,target/**
 
-"Set fullscreen
-if has("gui_running")
-  set lines=999 columns=999
-endif
-
 " Splitting behaviour
 set splitright
 set splitbelow

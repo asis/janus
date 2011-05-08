@@ -2,10 +2,9 @@ if has("gui")
     set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
 endif
 
-colorscheme zenburn
-
 "Terminal color goodness
 set t_Co=256
+colorscheme zenburn
 
 "Fix mouse stuff in xterm
 set ttymouse=xterm2

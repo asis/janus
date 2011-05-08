@@ -3,6 +3,8 @@ if has("gui")
     set transparency=5
 endif
 
+colorscheme solarized
+
 "switching between windows
 imap <silent> <M-Left> <Esc>:wincmd h<cr>
 nmap <silent> <M-Left> :wincmd h<cr>

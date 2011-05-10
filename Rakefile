@@ -166,6 +166,7 @@ vim_plugin_task "vim-ruby-runner",  "git://github.com/henrik/vim-ruby-runner.git
 vim_plugin_task "scala",            "git://github.com/bdd/vim-scala.git"
 vim_plugin_task "gist-vim",         "git://github.com/mattn/gist-vim.git"
 vim_plugin_task "vim-easymotion",   "git://github.com/Lokaltog/vim-easymotion.git"
+vim_plugin_task "colornames",       "git://github.com/vim-scripts/colornames.git"
 
 vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
   sh "gem install github-markup redcarpet"
@@ -212,9 +213,14 @@ vim_plugin_task "janus_themes" do
   end
 end
 
+vim_plugin_task "pandoc" do
+  sh "curl http://www.vim.org/scripts/download_script.php?src_id=9430 > syntax/pandoc.vim"
+end
+
 vim_plugin_task "molokai" do
   sh "curl https://github.com/mrtazz/molokai.vim/raw/master/colors/molokai.vim > colors/molokai.vim"
 end
+
 vim_plugin_task "mustache" do
   sh "curl https://github.com/defunkt/mustache/raw/master/contrib/mustache.vim > syntax/mustache.vim"
   File.open(File.expand_path('../ftdetect/mustache.vim', __FILE__), 'w') do |file|

@@ -4,7 +4,7 @@ endif
 
 "Terminal color goodness
 set t_Co=256
-colorscheme zenburn
+colorscheme solarized
 
 "Fix mouse stuff in xterm
 set ttymouse=xterm2

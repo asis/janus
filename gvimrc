@@ -69,7 +69,8 @@ set visualbell
 set guioptions-=T
 
 " Default gui color scheme
-color railscasts+
+set background=light
+color solarized
 
 " ConqueTerm wrapper
 function StartTerm()

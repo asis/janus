@@ -169,6 +169,10 @@ vim_plugin_task "vim-easymotion",   "git://github.com/Lokaltog/vim-easymotion.gi
 vim_plugin_task "colornames",       "git://github.com/vim-scripts/colornames.git"
 vim_plugin_task "vim-coffee-script", "git://github.com/kchmck/vim-coffee-script.git"
 
+vim_plugin_task "lusty-explorer" do
+  sh "curl http://www.vim.org/scripts/download_script.php?src_id=15545 > plugin/lusty-explorer.vim"
+end
+
 vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
   sh "gem install github-markup redcarpet"
 end

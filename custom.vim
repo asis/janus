@@ -79,3 +79,6 @@ set wildignore+=*.class,.git/**,.svn/**,target/**
 " Splitting behaviour
 set splitright
 set splitbelow
+
+" Spell check some filetypes
+autocmd FileType tex,pandoc,markdown setlocal spl=es spell

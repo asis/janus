@@ -68,10 +68,6 @@ set visualbell
 " Start without the toolbar
 set guioptions-=T
 
-" Default gui color scheme
-set background=light
-color solarized
-
 " ConqueTerm wrapper
 function StartTerm()
   execute 'ConqueTerm ' . $SHELL . ' --login'

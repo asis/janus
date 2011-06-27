@@ -1,9 +1,5 @@
-if has("gui")
-    set guifont=Menlo\ Regular:h14.0
-    set transparency=5
-endif
-
-colorscheme solarized
+set guifont=Menlo\ Regular:h14.0
+set transparency=0
 
 "switching between windows
 imap <silent> <M-Left> <Esc>:wincmd h<cr>

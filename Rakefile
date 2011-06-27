@@ -178,9 +178,9 @@ vim_plugin_task "lusty-explorer" do
   sh "curl http://www.vim.org/scripts/download_script.php?src_id=15545 > plugin/lusty-explorer.vim"
 end
 
-#vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
-#  sh "gem install github-markup redcarpet"
-#end
+vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
+ sh "gem install github-markup redcarpet"
+end
 
 vim_plugin_task "command_t",        "http://s3.wincent.com/command-t/releases/command-t-1.2.1.vba" do
   Dir.chdir "ruby/command-t" do

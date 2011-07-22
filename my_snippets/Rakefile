@@ -1,0 +1,9 @@
+desc "Install the snippets"
+task :default do
+  Dir.glob '*.snippets' do |f|
+    sh "cp #{f} ../snippets"
+  end
+  puts "Done!"
+end
+
+

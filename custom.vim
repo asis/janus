@@ -60,14 +60,11 @@ imap <c-s-tab> <esc>:tabprevious<cr>
 "CommandT switch
 nnoremap <silent> <leader>f :CommandT<CR>
 
-" Solarized Colorscheme Config
+" Colorscheme Config
 set t_Co=256
-let g:solarized_termcolors=256    "default value is 16
-let g:solarized_contrast="high"    "default value is normal
-let g:solarized_diffmode="high"    "default value is normal
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme railscasts+
 
 "Load OS dependent customizations
 if has("mac")

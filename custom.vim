@@ -66,6 +66,9 @@ syntax enable
 set background=dark
 colorscheme railscasts+
 
+"Silence hammer errors
+let g:HammerQuiet=1
+
 "Load OS dependent customizations
 if has("mac")
     source ~/.vim/custom-mac.vim

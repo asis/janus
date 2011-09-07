@@ -170,7 +170,6 @@ vim_plugin_task "scala",            "git://github.com/bdd/vim-scala.git"
 vim_plugin_task "gist-vim",         "git://github.com/mattn/gist-vim.git"
 vim_plugin_task "vim-easymotion",   "git://github.com/Lokaltog/vim-easymotion.git"
 vim_plugin_task "colornames",       "git://github.com/vim-scripts/colornames.git"
-vim_plugin_task "vim-coffee-script", "git://github.com/kchmck/vim-coffee-script.git"
 vim_plugin_task "vim-ruby-refactoring", "git://github.com/ecomba/vim-ruby-refactoring.git"
 vim_plugin_task "vim-css-color", "git://github.com/skammer/vim-css-color.git"
 

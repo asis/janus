@@ -49,6 +49,8 @@ nnoremap <c-s> :w<CR>
 inoremap <c-s> <Esc>:w<CR>
 vnoremap <Tab> >>gV
 vnoremap <s-Tab> <<gV
+nnoremap j gj
+nnoremap k gk
 
 "switching between tabs
 map <c-tab> :tabnext<cr>
@@ -64,10 +66,13 @@ nnoremap <silent> <leader>f :CommandT<CR>
 set t_Co=256
 syntax enable
 set background=dark
-colorscheme railscasts+
+colorscheme desert256
 
 "Silence hammer errors
 let g:HammerQuiet=1
+
+"Autosave on focus lost
+au FocusLost * :wa
 
 "Load OS dependent customizations
 if has("mac")
@@ -94,4 +99,7 @@ autocmd FileType tex,pandoc,markdown setlocal spl=es spell
 
 " Shut up you lusty explorer!
 let g:LustyExplorerSuppressRubyWarning = 1
+
+" Get away from the bottom line!
+set scrolloff=3
 

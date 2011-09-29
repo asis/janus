@@ -1,5 +1,6 @@
 if has("gui")
-    set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
+  set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
+  colorscheme molokai
 endif
 
 "Terminal color goodness

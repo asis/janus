@@ -173,6 +173,8 @@ vim_plugin_task "colornames",       "git://github.com/vim-scripts/colornames.git
 vim_plugin_task "vim-ruby-refactoring", "git://github.com/ecomba/vim-ruby-refactoring.git"
 vim_plugin_task "vim-css-color", "git://github.com/skammer/vim-css-color.git"
 vim_plugin_task "vim-repeat", "git://github.com/tpope/vim-repeat.git"
+vim_plugin_task "vim-less", "git://github.com/groenewege/vim-less.git"
+vim_plugin_task "vim-css3-syntax", "git://github.com/hail2u/vim-css3-syntax.git"
 
 vim_plugin_task "lusty-explorer" do
   sh "curl http://www.vim.org/scripts/download_script.php?src_id=15545 > plugin/lusty-explorer.vim"

@@ -175,6 +175,10 @@ vim_plugin_task "vim-repeat", "git://github.com/tpope/vim-repeat.git"
 vim_plugin_task "vim-less", "git://github.com/groenewege/vim-less.git"
 vim_plugin_task "vim-css3-syntax", "git://github.com/hail2u/vim-css3-syntax.git"
 
+vim_plugin_task "matchtag" do
+  sh "curl http://www.vim.org/scripts/download_script.php?src_id=16921 > ftplugin/html.vim"
+end
+
 vim_plugin_task "lusty-explorer" do
   sh "curl http://www.vim.org/scripts/download_script.php?src_id=15545 > plugin/lusty-explorer.vim"
 end

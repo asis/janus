@@ -113,19 +113,6 @@ nmap <silent> <Leader>ti :execute 'ConqueTermSplit pry'<CR>
 nmap <silent> <Leader>tb :execute 'ConqueTermSplit /bin/bash --login'<CR>
 nmap <silent> <Leader>tS :call RunRspecCurrentFileConque()<CR>
 
-" Run the current file as a ruby file, great for running unit tests
-function RunRubyCurrentFileConque()
-  execute "ConqueTermSplit ruby" bufname('%')
-endfunction
-
-function RunRspecCurrentFileConque()
-  execute "ConqueTermSplit rspec" bufname('%') " --color --format doc"
-endfunction
-
-function RunRakeConque()
-  execute "ConqueTermSplit rake"
-endfunction
-
 " Send the current selection to conqueterm. This lets you easily veal
 " Ruby code in an irb console. Note: you must have only one ConqueTerm
 " console open and running irb for this to work. Somehow it gets confused

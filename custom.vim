@@ -19,6 +19,9 @@ set hidden
 set ofu=syntaxcomplete#Complete
 set completeopt=menu,menuone,preview
 
+"add '-' to iskeyword list
+set iskeyword+=-
+
 "share clipboard
 set clipboard+=unnamed
 
@@ -58,6 +61,9 @@ map <c-s-tab> :tabprevious<cr>
 
 imap <c-tab> <esc>:tabnext<cr>
 imap <c-s-tab> <esc>:tabprevious<cr>
+
+"Switch buffers
+set switchbuf=usetab
 
 "CommandT switch
 nnoremap <silent> <leader>f :CommandT<CR>
